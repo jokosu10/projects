@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="105dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bkgnd_box"
+            android:orientation="vertical"
+            android:weightSum="8" >
+
+            <TextView
+                android:id="@+id/textViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+               <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btnGoogle"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/google" />
+
+               
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cat_button1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/facebook" />
+
+               
+            </LinearLayout>
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cat_button2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/skype" />
+
+               
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cat_button3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/twitter" />
+
+               
+            </LinearLayout>
+            
+              <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cat_button4"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/youtube" />
+
+               
+            </LinearLayout>
+            
+               <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/cat_button5"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/tv" />
+
+               
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/stream_btn"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/stream" />
+
+               
+            </LinearLayout>
+            
+              
+                 <LinearLayout
+                	android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"
+                	android:gravity="center"
+                	android:layout_weight="1" >
+
+                     <TextView
+                         android:id="@+id/earn"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text=""
+                         android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+            </LinearLayout>
+             
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

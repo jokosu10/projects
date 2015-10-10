@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:id="@+id/web"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:weightSum="20"
+        android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/btnBack"
+            android:layout_weight="1.25"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+			android:background="@drawable/back"/>
+        
+        <Button 
+            android:id="@+id/btnForward"
+            android:layout_weight="1.25"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:background="@drawable/forward"/>
+        
+        <Button 
+            android:id="@+id/btnRefresh"
+            android:layout_weight="1.25"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:background="@drawable/refresh"/>
+
+        <EditText
+            android:id="@+id/urlBox"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:ems="5"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:inputType="text">
+        </EditText>  
+        
+        <Button 
+            android:id="@+id/btnGo"
+            android:layout_weight="1.25"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:background="@drawable/go"/>
+       
+    </LinearLayout>
+    
+    <WebView
+      	android:id="@+id/webView1"
+      	android:layout_width="match_parent"
+      	android:layout_height="0px"
+      	android:layout_below="@+id/urlBox"
+      	android:hardwareAccelerated="true"
+      	android:layout_weight="9"
+      	android:layout_gravity="center" />
+        
+</LinearLayout>

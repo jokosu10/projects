@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="105dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bkgnd_box"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:weightSum="10" >
+             
+             <TextView
+                android:id="@+id/textViewCategory"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight=".2" />
+             
+             <LinearLayout 
+                 android:layout_weight="1"
+                 android:layout_height="0px"
+                 android:gravity="center"
+                 android:layout_width="match_parent">
+                 
+                 <Button
+	                 android:id="@+id/btnUp"
+	                 android:layout_width="40dp"
+	                 android:layout_height="40dp"
+	                 android:background="@drawable/up1"/>
+                 
+             </LinearLayout>
+             
+   
+        	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="6.6" >
+                
+        		<ListView
+        		    android:id="@+id/list"
+        		    android:layout_width="match_parent"
+        		    android:layout_height="match_parent"
+        		    android:divider="@android:color/transparent"
+        		    android:dividerHeight="10.0sp" >
+
+        		</ListView>
+        	</LinearLayout>
+     		<!--  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="1" >
+        		
+        		<TextView
+        	    	android:id="@+id/earnings_app"
+        	    	android:layout_width="match_parent"
+        	    	android:layout_height="40dp"
+        	    	android:gravity="center"
+        	    	android:textAppearance="?android:attr/textAppearanceMedium" />
+        	</LinearLayout> -->
+        	
+        	<LinearLayout 
+                 android:layout_weight="1"
+                 android:layout_height="0px"
+                 android:layout_width="match_parent"
+                 android:gravity="center">
+                 
+                 <Button
+	                 android:id="@+id/btnDown"
+	                 android:layout_width="40dp"
+	                 android:layout_height="40dp"
+	                 android:background="@drawable/down"/>
+                 
+             </LinearLayout>
+        	
+        	
+        	<TextView
+                android:id="@+id/earnings_app"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:scrollHorizontally="true"
+                android:textSize="18sp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        	<TextView
+                android:id="@+id/extra"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:gravity="center"
+                android:layout_weight=".2"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>	
+        
+      </LinearLayout>
+
+</LinearLayout>
