@@ -33,7 +33,7 @@ import android.widget.Toast;
 
 public class ExpensesActivity extends Activity {
 	
-    private ExpenseIncomeBreakdownListViewAdapter breakdownAdapter;
+    private ExpenseIncomeBreakdownListViewAdapter breakdownAdapter; 
     private static ArrayList<ExpenseIncomeBreakdownModel> breakdownList;
     private ListView breakdownListView;
     private static double exp;
