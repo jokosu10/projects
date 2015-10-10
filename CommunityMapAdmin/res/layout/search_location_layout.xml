@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/box_gray" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@+id/textViewSearch" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0px" android:text="SEARCH" />
+        <AutoCompleteTextView android:id="@+id/autoCompleteTextViewLocation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="15.0px" android:layout_marginRight="10.0px" android:hint="Type a location here" android:maxLines="2" android:ems="10">
+            <requestFocus />
+        </AutoCompleteTextView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="15.0px" android:layout_marginRight="5.0px" android:layout_marginBottom="5.0px">
+            <Button android:textColor="#ffffffff" android:id="@+id/searchBtn" android:background="@drawable/box_blue" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="  OK  " android:layout_weight="0.5" />
+            <Button android:textColor="#ffffffff" android:id="@+id/clearBtn" android:background="@drawable/box_blue" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="CLEAR" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

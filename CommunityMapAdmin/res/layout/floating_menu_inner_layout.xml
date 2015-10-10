@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/box_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="250.0dip" android:layout_height="300.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center_horizontal" android:id="@+id/textViewCategory" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="MENU" />
+            <LinearLayout android:orientation="vertical" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@+id/cat_button1" android:background="@drawable/box_blue" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Save Current Location" style="?android:attr/buttonStyleSmall" />
+                <Button android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@+id/cat_button2" android:background="@drawable/box_blue" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Search a Location" style="?android:attr/buttonStyleSmall" />
+                <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@+id/cat_button3" android:background="@drawable/box_blue" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="View Nearby Members" style="?android:attr/buttonStyleSmall" />
+                <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@+id/cat_button4" android:background="@drawable/box_blue" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="View Nearby Members Establishment" style="?android:attr/buttonStyleSmall" />
+                <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@+id/cat_button5" android:background="@drawable/box_blue" android:layout_width="fill_parent" android:layout_height="55.0dip" android:text="View All Online" style="?android:attr/buttonStyleSmall" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/box_gray" android:layout_width="fill_parent" android:layout_height="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="italic" android:gravity="center_horizontal" android:id="@+id/textViewDetails" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="10.0px" android:text="DETAILS" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="5.0px">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="italic" android:id="@+id/plotCurrentLocationTitleTextView" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="5.0px" android:text="Title: " android:layout_weight="0.5" />
+        <EditText android:id="@+id/plotCurrentLocationTitleEditText" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="5.0px" android:layout_marginRight="5.0px" android:ems="10" android:layout_weight="0.5">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="5.0px">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="italic" android:id="@+id/plotCurrentLocationDescriptionTextView" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="5.0px" android:text="Description: " android:layout_weight="0.2" />
+        <EditText android:id="@+id/plotCurrentLocationDescriptionEditText" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginLeft="5.0px" android:layout_marginRight="5.0px" android:ems="10" android:layout_weight="0.8" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="5.0px">
+        <Button android:textStyle="italic" android:textColor="#ffffffff" android:id="@+id/plotCurrentLocationSaveBtn" android:background="@drawable/box_blue" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginRight="5.0px" android:text="  SAVE  " android:layout_weight="0.5" />
+        <Button android:textStyle="italic" android:textColor="#ffffffff" android:id="@+id/plotCurrentLocationCancelBtn" android:background="@drawable/box_blue" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="5.0px" android:text=" CANCEL " android:layout_weight="0.5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_marginTop="5.0px" android:layout_weight="0.01" />
+</LinearLayout>
