@@ -1,0 +1,291 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+    <!-- Add your configuration elements here -->
+    <constant name="struts.devMode" value="false" />	
+    <!--<constant name="struts.enable.DynamicMethodInvocation" value="false" />-->
+	
+	<package name="com.smsgt.roamer_locator.struts2.controller" extends="struts-default,json-default" namespace="/">
+		  
+		<action name="createCampaign" class="com.smsgt.roamer_locator.struts2.controller.CreateCampaignAction" method="execute">
+			<result type="json">
+				<param name="excludeProperties">
+					selectedNetworks,date,time,rSchedBean,triggerType,id,dateCreated,timeCreated,pauseType
+				</param>
+				<param name="noCache">true</param>	
+			</result>
+		</action>
+
+		<action name="checkForExistingCampaign" class="com.smsgt.roamer_locator.struts2.controller.CreateCampaignAction" method="checkForExistingCampaign">
+			<result type="json">
+				<param name="excludeProperties">
+					selectedNetworks,date,time,triggerType,id,dateCreated,timeCreated,pauseType
+				</param>
+				<param name="noCache">true</param>	
+			</result>
+		</action>
+
+		<action name="pauseResumeCampaign" class="com.smsgt.roamer_locator.struts2.controller.CreateCampaignAction" method="pauseResumeCampaign">
+			<result type="json">
+				<param name="excludeProperties">
+					selectedNetworks,date,time,triggerType,id,dateCreated,timeCreated,pauseType,rSchedBean
+				</param>
+				<param name="noCache">true</param>	
+			</result>
+		</action>
+
+		<action name="validateUser" class="com.smsgt.roamer_locator.struts2.controller.ValidateUserAction" method="execute">
+			<result name="success" type="redirect">/jsp/InboundRoamersMapTracker.jsp</result>
+			<result name="success_admin" type="redirect">/jsp/InboundRoamersMapTracker_Admin.jsp</result>
+			<result name="input">/jsp/Login.jsp</result>
+		</action>
+
+		<action name="validateUser2" class="com.smsgt.roamer_locator.struts2.controller.ValidateUser2Action" method="execute">
+			<result name="success" type="redirect">/jsp/admin/InboundRoamersAdHocMapTracker_2.jsp</result>
+			<result name="input">/jsp/admin/Login.jsp</result>
+		</action>
+
+		<action name="logoutUser" class="com.smsgt.roamer_locator.struts2.controller.LogoutUserAction" method="logout">
+			<result name="success" type="redirect">/jsp/Login.jsp</result>
+		</action>
+
+		<action name="createUser" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="create">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch, deleteUserReturn, updateUserReturn, viewUsersReturn, viewLogsReturn
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="updateUser" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="update">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch, deleteUserReturn, createUserReturn, viewUsersReturn, viewLogsReturn
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="deleteUser" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="delete">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch, createUserReturn, updateUserReturn, viewUsersReturn, viewLogsReturn
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="getAllUsers" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="viewAllUsers">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch, deleteUserReturn, updateUserReturn, createUserReturn, viewLogsReturn
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="viewUserLogs" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="viewUserLogs">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch, deleteUserReturn, updateUserReturn, viewUsersReturn, createUserReturn
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="insertToUserLogs" class="com.smsgt.roamer_locator.struts2.controller.UserOperationsAction" method="insertToUserLogs">
+			 <result type="json">
+			  <param name="excludeProperties">
+			  		userName, password, userType, roamerLocatorUserList, roamerLocatorUserLogsList, createdBy, updatedBy, fullName, userId, adminType, action, page, dateSearch
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+
+		<action name="roamerLocatorFileUpload" class="com.smsgt.roamer_locator.struts2.controller.DetermineRoamerLocationTrackerUploadAction" method="parseUploadedFile">
+            <result type="json">
+			  <param name="excludeProperties">
+			  		uploadFile, uploadFileFileName,uploadFileContentType,roamwareImsiFileUploadList,isInternationalRP,sessionUserId
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>		
+
+		<action name="roamerLocatorFileUpload2" class="com.smsgt.roamer_locator.struts2.controller.DetermineRoamerLocationTrackerUploadAction" method="parseUploadedFile2">
+            <result type="json">
+			  <param name="excludeProperties">
+			  		uploadFile, uploadFileFileName,uploadFileContentType,roamwareImsiFileUploadList,isInternationalRP,sessionUserId
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 	
+		</action>
+		
+ 		<action name="inboundRoamerSelectOperator" class="com.smsgt.roamer_locator.struts2.controller.GetAllOperatorsFromDatabaseAction" method="execute">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		networkOperatorArrayList, mode
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+ 		<action name="getInboundRoamersCount" class="com.smsgt.roamer_locator.struts2.controller.DetermineInboundRoamerLocationAction" method="execute">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		location,column,inboundRoamersBeanList
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>		
+
+ 		<action name="getInboundRoamersCount2" class="com.smsgt.roamer_locator.struts2.controller.DetermineInboundRoamerLocationAction" method="execute2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		location,column,inboundRoamersBeanList
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+
+ 		<action name="getInboundRoamersReportPerNetwork" class="com.smsgt.roamer_locator.struts2.controller.GetInboundRoamersReportAction" method="generateReportsBaseOnNetwork">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		operator, imsi, inboundRoamersReportArrayList, dateFrom, dateTo, location, isProvincialSelected, isTouristDestination
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+		
+ 		<action name="getInboundRoamersReportUsingImsi" class="com.smsgt.roamer_locator.struts2.controller.GetInboundRoamersReportAction" method="generateReportsBaseOnIMSI">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		operator, imsi, inboundRoamersReportArrayList, dateFrom, dateTo, location, isProvincialSelected, isTouristDestination
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>	
+
+ 		<action name="getInboundRoamersReportPerNetwork2" class="com.smsgt.roamer_locator.struts2.controller.GetInboundRoamersReportAction" method="generateReportsBaseOnNetwork2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		operator, imsi, inboundRoamersReportArrayList, dateFrom, dateTo, location, isProvincialSelected, isTouristDestination
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+		
+ 		<action name="getInboundRoamersReportUsingImsi2" class="com.smsgt.roamer_locator.struts2.controller.GetInboundRoamersReportAction" method="generateReportsBaseOnIMSI2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		operator, imsi, inboundRoamersReportArrayList, dateFrom, dateTo, location, isProvincialSelected, isTouristDestination
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+		
+		<action name="getServerDate" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="fetchDateFromServer">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		scheduleInterval,jsonResponse,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="getScheduleInterval" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="fetchScheduleInterval">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,jsonResponse,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="checkAdHocData" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="checkForUpdatedValues">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="checkAdHocData2" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="checkForUpdatedValues2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="checkIfAdHocIsRunning" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="isAdhocRunning">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,jsonResponse,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="checkIfCampaignIsRunning" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="isCampaignRunning">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,jsonResponse,isAdhocRunning,roamwareAdhocList,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="getLatestInboundMapDate" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="fetchCurrentTimeForInboundMap">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,jsonResponse,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="getLatestInboundMapDate2" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="fetchCurrentTimeForInboundMap2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,jsonResponse,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="checkIfPSIIsRunning" class="com.smsgt.roamer_locator.struts2.controller.RoamerMapTrackerUtilitiesAction" method="checkIfPSIIsRunningOnServer">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		serverDate,scheduleInterval,jsonResponse,isAdhocRunning,isCampaignRunning,roamwareAdhocList,rSchedBean,inboundMapDate
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="triggerAdHoc" class="com.smsgt.roamer_locator.struts2.controller.DetermineRoamerLocationTrackerDropDownAndTextInputAction" method="execute">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		inputMode,stringInput,sessionId
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+
+		<action name="triggerAdHoc2" class="com.smsgt.roamer_locator.struts2.controller.DetermineRoamerLocationTrackerDropDownAndTextInputAction" method="execute2">
+			<result type="json">
+			  <param name="excludeProperties">
+			  		inputMode,stringInput,sessionId
+  			  </param>
+  			  <param name="noCache">true</param>
+  			</result> 
+		</action>
+							
+    </package>
+</struts>
+ 

@@ -1,0 +1,118 @@
+.pager
+{
+    width: 50%;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.pager div.short
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    width: 74px;
+    margin-top: 5px;
+}
+
+.pager div.short input
+{
+    width: 28px;
+    height: 18px;
+    border: none;
+    margin-left: 0px;
+    float: left;
+}
+
+.pager ul
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.pager ul li
+{
+    display: inline;
+    margin-left: 0px;
+}
+
+.pager ul li a
+{
+    text-decoration: none;
+    display: inline-table;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.pager span
+{
+    margin-left: 2px;
+    font-size: small;
+    color: black;
+    float: left;
+    margin-top: 5px;
+}
+
+.pager .btn
+{
+    display: block;
+    width: 40px;
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.pager .disabled
+
+{
+    color: #A0A0A0 !important;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.red 
+{
+    margin: 0 auto;
+}
+
+.red.normal
+{
+    background-color: #ed145b;
+    color: White;
+    border: solid 1px #ed145b;
+}
+
+.red.active
+{
+    background-color: white;
+    color: #ed145b;
+    border: solid 1px #ed145b;
+}
+
+.pager.red .btn
+{
+    background-color: #ed145b;
+    color: White;
+    border: solid 1px #ed145b;
+}
+
