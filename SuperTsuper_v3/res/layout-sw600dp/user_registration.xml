@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bg" >
+
+    <ImageView
+        android:id="@+id/userRegistrationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="top"
+        android:background="#FF9900"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userRegistrationImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Register your Profile"
+        android:textColor="#ededed"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/userRegistrationTsuperLogo"
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_below="@+id/userRegistrationImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/regprof_logo" />    
+    
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout1"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationTsuperLogo"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationUsernameTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.35"
+            android:text="UserName: "
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/UserName"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.65"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:textSize="18sp"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:inputType="textPersonName"
+            android:maxLength="30" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationLinearLayout1"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationPasswordTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="15dp"
+            android:text="Password: "
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"            
+            android:layout_weight="0.65"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:textSize="18sp"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:inputType="textPassword"
+            android:maxLength="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout3"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationLinearLayout2"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationFirstNameTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="15dp"
+            android:text="FirstName: " 
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/FirstName"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:capitalize="words"
+            android:textSize="18sp"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:inputType="textPersonName"
+            android:maxLength="15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout4"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationLinearLayout3"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationLastNameTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="15dp"
+            android:text="LastName: "
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/LastName"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.65"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:capitalize="words"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:textSize="18sp"
+            android:inputType="textPersonName"
+            android:maxLength="15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout5"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationLinearLayout4"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationContactNoTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="15dp"
+            android:text="ContactNo.: "
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/ContactNo"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.65"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:textSize="18sp"
+            android:inputType="phone"
+            android:maxLength="11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userRegistrationLinearLayout6"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/userRegistrationLinearLayout5"
+        android:layout_centerInParent="true"
+        android:background="@drawable/regprof_box4"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userRegistrationCityTextView"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="15dp"
+            android:text="City: "
+            android:textColor="#ededed"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.65"
+            android:layout_marginRight="15dp"
+            android:background="#00000000"
+            android:ems="10"
+            android:textColor="#ededed"
+            android:textSize="18sp"
+            android:inputType="textPostalAddress"
+            android:maxLength="50" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/userRegistrationLinearLayout6"
+        android:background="@drawable/regprof_button"
+        android:clickable="true" />
+
+</RelativeLayout>

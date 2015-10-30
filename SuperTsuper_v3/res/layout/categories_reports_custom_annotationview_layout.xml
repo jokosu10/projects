@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/box_white2" >
+
+    <TextView
+        android:id="@+id/categories_reports_custom_annotation_view_nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Medium Text"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black" />
+    
+    <TextView
+        android:id="@+id/categories_reports_custom_annotation_view_postedByTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Medium Text"
+        android:textSize="13sp"
+        android:textColor="@android:color/black" />
+    
+    <TextView
+        android:id="@+id/categories_reports_custom_annotation_view_postedDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:text="Medium Text"
+        android:textSize="13sp"
+        android:textColor="@android:color/black" />    
+
+    <TextView
+        android:id="@+id/categories_reports_custom_annotation_view_descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:text="Medium Text"
+        android:textSize="13sp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/black" />    
+    
+</LinearLayout>
