@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pin_o_memo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ <!-- Specify the correct minSDK and targerSDK versions. -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <!-- Access Google based web services -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Network connectivity permissions. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- External storage for caching -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- My location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/marker"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pin_o_memo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data
+                    android:host="gizmos"
+                    android:scheme="example" />
+
+                <action android:name="android.intent.action.View" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <action android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pin_o_memo.ProximityActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.pin_o_memo.activity.proximity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pin_o_memo.AlarmActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.pin_o_memo.activity.alarm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pin_o_memo.NotificationView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.example.pin_o_memo.LocationsContentProvider"
+            android:authorities="com.example.pin_o_memo.locations"
+            android:exported="false" />
+        <provider
+            android:name="com.example.pin_o_memo.ProfileContentProvider"
+            android:authorities="com.example.pin_o_memo.profile"
+            android:exported="false" />
+        <provider
+            android:name="com.example.pin_o_memo.BookmarksContentProvider"
+            android:authorities="com.example.pin_o_memo.bookmark"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAQ3if_92zg57Yx4IwPteGBDVd7Y8d3vzk" />
+
+        <activity android:name="com.example.pin_o_memo.AndroidDatabaseManager" />
+        <activity
+            android:name="com.example.pin_o_memo.AddReminder"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName="com.example.pin_o_memo.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pin_o_memo.MainActivity" />
+        </activity>
+
+        <!--
+            <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        -->
+        <activity
+            android:name="com.example.pin_o_memo.ProfilePage"
+            android:icon="@drawable/ic_action_user"
+            android:label="Profile" >
+        </activity>
+        <activity
+            android:name="com.example.pin_o_memo.EditReminder"
+            android:icon="@drawable/ic_action_user"
+            android:label="Edit Reminder" >
+        </activity>
+        <!--
+            <activity
+            android:name=".EditNameDialog"
+            android:label="@string/title_activity_edit_name_dialog" >
+        </activity>
+        -->
+
+        <service
+            android:name="com.example.pin_o_memo.MyAlarmService"
+            android:enabled="true" />
+        <service
+            android:name="com.example.pin_o_memo.MyLocationService"
+            android:enabled="true" />
+
+        <receiver android:name="com.example.pin_o_memo.MyReceiver" />
+        <receiver android:name="com.example.pin_o_memo.LocationReceiver" />
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.example.pin_o_memo.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

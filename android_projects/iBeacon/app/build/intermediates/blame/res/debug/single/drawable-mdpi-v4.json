@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\iBeacon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\iBeacon\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\iBeacon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ibeacon_icon.png",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\iBeacon\\app\\src\\main\\res\\drawable-mdpi\\ibeacon_icon.png"
+    }
+]

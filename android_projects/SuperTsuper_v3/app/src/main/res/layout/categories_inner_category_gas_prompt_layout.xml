@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="#00000000"
+    android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/catLinearLayout01"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/catTextView1"
+                android:layout_width="55dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@drawable/cat1"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/catTextView1_blank"
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+                        
+            <Button
+                android:id="@+id/cat_inner_button1_show"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/button_hov_up"
+                android:text="Show on Map"
+                android:textSize="15sp"
+                android:textColor="#ededed"/>
+
+            <Button
+                android:id="@+id/cat_inner_button1_post"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/button_inact_dwn"
+                android:text="Post on Map"
+                android:textSize="15sp"
+                android:textColor="@color/black_overlay" />
+
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile_page.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\src\\main\\res\\menu\\profile_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\splash.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\src\\main\\res\\menu\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_reminder.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\src\\main\\res\\menu\\add_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_name_dialog.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\src\\main\\res\\menu\\edit_name_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\Pin-O-Memo\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]

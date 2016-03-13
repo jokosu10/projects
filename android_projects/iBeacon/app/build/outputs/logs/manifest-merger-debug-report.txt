@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:13:22-64
+application
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:15:5-49:19
+	android:label
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:16:9-78
+activity#com.smsgt.mobile.iBeacon.I_BeaconSniffer
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:22:8-30:20
+	android:label
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:25:13-45
+	android:launchMode
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:24:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.smsgt.mobile.iBeacon.I_BeaconMainActivity
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:32:9-82
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:32:19-79
+service#com.smsgt.mobile.iBeacon.I_Beacon_Service
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:34:9-38:72
+	android:enabled
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:36:10-33
+	android:isolatedProcess
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:37:10-41
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:38:13-69
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:40:9-44:71
+	android:enabled
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:40:18-40
+	android:label
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:41:11-34
+	android:isolatedProcess
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:42:11-42
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:44:11-68
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:46:6-47:71
+	android:enabled
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:46:15-37
+	android:name
+		ADDED from C:\Users\ARIS CRUZ\StudioProjects\iBeacon\app\src\main\AndroidManifest.xml:47:11-68

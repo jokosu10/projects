@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/repLinearLayout06"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/total_trip_textview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/box_green1"
+            android:gravity="center"
+            android:text="Total Trip"
+            android:textSize="18sp"
+            android:textColor="#ededed" />
+
+        <RelativeLayout
+            android:id="@+id/repRelativeLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_white1" >
+
+            <TextView
+                android:id="@+id/total_trip_icon"
+                android:layout_width="20dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/caricon"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/total_trip_with_icon_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/total_trip_icon"
+                android:gravity="center|left"
+                android:text="   0 km"
+                android:textAlignment="gravity"
+                android:textSize="18sp" 
+                android:textColor="@android:color/black"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/total_distance_textview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/box_green2"
+            android:gravity="center"
+            android:text="Total Distance"
+            android:textSize="18sp"
+            android:textColor="#ededed" />
+
+        <RelativeLayout
+            android:id="@+id/repRelativeLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_white1" >
+
+            <TextView
+                android:id="@+id/total_distance_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/profile_up_mtr"
+                android:textAppearance="?android:attr/textAppearanceSmall" />    
+            
+            <TextView
+                android:id="@+id/total_distance_with_icon_textview"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/total_distance_icon"
+                android:gravity="center|left"
+                android:text="   0 km"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/total_points_textview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/box_green2"
+            android:gravity="center"
+            android:text="Total Points"
+            android:textSize="18sp"
+            android:textColor="#ededed" />
+
+        <RelativeLayout
+            android:id="@+id/repRelativeLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/box_white2" >
+ 
+            <TextView
+                android:id="@+id/total_points_icon"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/profile_up_str"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/total_points_with_icon_textview"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/total_points_icon"
+                android:gravity="left|center"
+                android:text="   0 pts"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/end_drive_blank_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/end_drive_ok_btn"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ok_button"/>
+    </LinearLayout>
+
+</LinearLayout>

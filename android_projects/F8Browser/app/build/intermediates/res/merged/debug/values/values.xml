@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="products">
+        <item>Smart 15</item>
+		<item>Smart 30</item>
+		<item>Smart 50</item>
+		<item>Smart 60</item>
+		<item>Smart 100</item>
+		<item>Smart 115</item>
+		<item>Smart 200</item>
+		<item>Smart 300</item>
+		<item>Smart 500</item>
+		<item>Smart 1000</item>
+		<item>Smart All Text 10</item>
+		<item>Smart All Text 20</item>
+		<item>Smart Gaan Text 10</item>
+		<item>Smart Gaan Text 20</item>
+		<item>Smart Lahat Text 20</item>
+		<item>Smart Lahat Text 30</item>
+		<item>Smart Bro 15</item>
+		<item>Smart Bro 30</item>
+		<item>Smart Bro 50</item>
+		<item>Smart Bro 60</item>
+		<item>Smart Bro 100</item>
+		<item>Smart Bro 115</item>
+		<item>Smart Bro 200</item>
+		<item>Smart Bro 300</item>
+		<item>Smart Bro 500</item>
+		<item>Red Mobile 10</item>
+		<item>Red Mobile 20</item>
+		<item>Red Mobile 30</item>
+		<item>Red Mobile 50</item>
+		<item>Red Mobile 100</item>
+		<item>Red Mobile 200</item>
+		<item>Red Mobile 300</item>
+		<item>Red Mobile 500</item>
+		<item>Red Mobile Call and Text Unli 25</item>
+		<item>Red Mobile Call and Text Unli 125</item>
+		<item>Red Mobile Call and Text Unli 500</item>
+		<item>Sun 10</item>
+		<item>Sun 15</item>
+		<item>Sun 20</item>
+		<item>Sun 25</item>
+		<item>Sun 30</item>
+		<item>Sun 50</item>
+		<item>Sun 75</item>
+		<item>Sun 100</item>
+		<item>Sun 150</item>
+		<item>Sun 300</item>
+		<item>Sun 500</item>
+		<item>Sun Budgetxt 5</item>
+		<item>Sun Budgetxt 20</item>
+		<item>Sun Call and Text Combo 10</item>
+		<item>Sun Call and Text Combo 20</item>
+		<item>Sun Call and Text Combo 30</item>
+		<item>Sun Call and Text Combo 50</item>
+		<item>Sun Call and Text Combo 150</item>
+		<item>Sun Text Unlimited 10</item>
+		<item>Sun Text Unlimited 20</item>
+		<item>Sun Text Unlimited 50</item>
+		<item>Sun Text Unlimited 60</item>
+		<item>Sun Text Unlimited 150</item>
+		<item>Sun Text Unlimited 200</item>
+		<item>Sun Call and Text Unlimited 25</item>
+		<item>Sun Call and Text Unlimited 100</item>
+		<item>Sun Call and Text Unlimited 150</item>
+		<item>Sun Call and Text Unlimited 450</item>
+		<item>Sun Flexi Load 30</item>
+		<item>Sun Flexi Load 50</item>
+		<item>Sun Daylight Call and Text Unlimited 100</item>
+		<item>Sun Text Trio 20</item>
+		<item>Sun Trio Plus 20</item>
+		<item>Sun Trio Plus 30</item>
+		<item>Sun Trio Plus 100</item>
+		<item>Sun Sulit Calls 30</item>
+		<item>Sun Text All 15</item>
+		<item>Sun Text All Plus 25</item>
+		<item>Sun Text All Plus 100</item>
+		<item>Sun Unlimited Mix 25</item>
+		<item>Sun Unlimited Mix 100</item>
+		<item>Sun Unlimited Text All Net 20</item>
+		<item>Sun Mobile Internet 25</item>
+		<item>Sun Mobile Internet 50</item>
+		<item>Sun Mobile Internet 999</item>
+		<item>Sun Broadband Wireless 50</item>
+		<item>Sun Broadband Wireless 100</item>
+		<item>Sun Broadband Wireless 250</item>
+		<item>Sun Broadband Wireless 300</item>
+		<item>Sun IDD to Top 10 countries 50</item>
+		<item>Sun IDD to Top 10 countries 100</item>
+		<item>Sun IDD to Top 10 countries 300</item>
+		<item>Globe 10</item>
+		<item>Globe 20</item>
+		<item>Globe 25</item>
+		<item>Globe 50</item>
+		<item>Globe 60</item>
+		<item>Globe 100</item>
+		<item>Globe 150</item>
+		<item>TM 10</item>
+		<item>TM 20</item>
+		<item>TM 25</item>
+		<item>TM 50</item>
+		<item>TM 60</item>
+		<item>TM 100</item>
+		<item>TM 150</item>
+		<item>Globe AMAX 10</item>
+		<item>Globe AMAX 11</item>
+		<item>Globe AMAX 12</item>
+		<item>Globe AMAX 13</item>
+		<item>Globe AMAX 14</item>
+		<item>Globe AMAX 15</item>
+		<item>Globe AMAX 16</item>
+		<item>Globe AMAX 17</item>
+		<item>Globe AMAX 18</item>
+		<item>Globe AMAX 19</item>
+		<item>Globe AMAX 20</item>
+		<item>Globe AMAX 21</item>
+		<item>Globe AMAX 22</item>
+		<item>Globe AMAX 23</item>
+		<item>Globe AMAX 24</item>
+		<item>Globe AMAX 25</item>
+		<item>Globe AMAX 26</item>
+		<item>Globe AMAX 27</item>
+		<item>Globe AMAX 28</item>
+		<item>Globe AMAX 29</item>
+		<item>Globe AMAX 30</item>
+		<item>Globe AMAX 31</item>
+		<item>Globe AMAX 32</item>
+		<item>Globe AMAX 33</item>
+		<item>Globe AMAX 34</item>
+		<item>Globe AMAX 35</item>
+		<item>Globe AMAX 36</item>
+		<item>Globe AMAX 37</item>
+		<item>Globe AMAX 38</item>
+		<item>Globe AMAX 39</item>
+		<item>Globe AMAX 40</item>
+		<item>Globe AMAX 41</item>
+		<item>Globe AMAX 42</item>
+		<item>Globe AMAX 43</item>
+		<item>Globe AMAX 44</item>
+		<item>Globe AMAX 45</item>
+		<item>Globe AMAX 46</item>
+		<item>Globe AMAX 47</item>
+		<item>Globe AMAX 48</item>
+		<item>Globe AMAX 49</item>
+		<item>Globe AMAX 50</item>
+		<item>Globe AMAX 51</item>
+		<item>Globe AMAX 52</item>
+		<item>Globe AMAX 53</item>
+		<item>Globe AMAX 54</item>
+		<item>Globe AMAX 55</item>
+		<item>Globe AMAX 56</item>
+		<item>Globe AMAX 57</item>
+		<item>Globe AMAX 58</item>
+		<item>Globe AMAX 59</item>
+		<item>Globe AMAX 60</item>
+		<item>Globe AMAX 61</item>
+		<item>Globe AMAX 62</item>
+		<item>Globe AMAX 63</item>
+		<item>Globe AMAX 64</item>
+		<item>Globe AMAX 65</item>
+		<item>Globe AMAX 66</item>
+		<item>Globe AMAX 67</item>
+		<item>Globe AMAX 68</item>
+		<item>Globe AMAX 69</item>
+		<item>Globe AMAX 70</item>
+		<item>Globe AMAX 71</item>
+		<item>Globe AMAX 72</item>
+		<item>Globe AMAX 73</item>
+		<item>Globe AMAX 74</item>
+		<item>Globe AMAX 75</item>
+		<item>Globe AMAX 76</item>
+		<item>Globe AMAX 77</item>
+		<item>Globe AMAX 78</item>
+		<item>Globe AMAX 79</item>
+		<item>Globe AMAX 80</item>
+		<item>Globe AMAX 81</item>
+		<item>Globe AMAX 82</item>
+		<item>Globe AMAX 83</item>
+		<item>Globe AMAX 84</item>
+		<item>Globe AMAX 85</item>
+		<item>Globe AMAX 86</item>
+		<item>Globe AMAX 87</item>
+		<item>Globe AMAX 88</item>
+		<item>Globe AMAX 89</item>
+		<item>Globe AMAX 90</item>
+		<item>Globe AMAX 91</item>
+		<item>Globe AMAX 92</item>
+		<item>Globe AMAX 93</item>
+		<item>Globe AMAX 94</item>
+		<item>Globe AMAX 95</item>
+		<item>Globe AMAX 96</item>
+		<item>Globe AMAX 97</item>
+		<item>Globe AMAX 98</item>
+		<item>Globe AMAX 99</item>
+		<item>Globe AMAX 100</item>
+		<item>Globe AMAX 101</item>
+		<item>Globe AMAX 102</item>
+		<item>Globe AMAX 103</item>
+		<item>Globe AMAX 104</item>
+		<item>Globe AMAX 105</item>
+		<item>Globe AMAX 106</item>
+		<item>Globe AMAX 107</item>
+		<item>Globe AMAX 108</item>
+		<item>Globe AMAX 109</item>
+		<item>Globe AMAX 110</item>
+		<item>Globe AMAX 111</item>
+		<item>Globe AMAX 112</item>
+		<item>Globe AMAX 113</item>
+		<item>Globe AMAX 114</item>
+		<item>Globe AMAX 115</item>
+		<item>Globe AMAX 116</item>
+		<item>Globe AMAX 117</item>
+		<item>Globe AMAX 118</item>
+		<item>Globe AMAX 119</item>
+		<item>Globe AMAX 120</item>
+		<item>Globe AMAX 121</item>
+		<item>Globe AMAX 122</item>
+		<item>Globe AMAX 123</item>
+		<item>Globe AMAX 124</item>
+		<item>Globe AMAX 125</item>
+		<item>Globe AMAX 126</item>
+		<item>Globe AMAX 127</item>
+		<item>Globe AMAX 128</item>
+		<item>Globe AMAX 129</item>
+		<item>Globe AMAX 130</item>
+		<item>Globe AMAX 131</item>
+		<item>Globe AMAX 132</item>
+		<item>Globe AMAX 133</item>
+		<item>Globe AMAX 134</item>
+		<item>Globe AMAX 135</item>
+		<item>Globe AMAX 136</item>
+		<item>Globe AMAX 137</item>
+		<item>Globe AMAX 138</item>
+		<item>Globe AMAX 139</item>
+		<item>Globe AMAX 140</item>
+		<item>Globe AMAX 141</item>
+		<item>Globe AMAX 142</item>
+		<item>Globe AMAX 143</item>
+		<item>Globe AMAX 144</item>
+		<item>Globe AMAX 145</item>
+		<item>Globe AMAX 146</item>
+		<item>Globe AMAX 147</item>
+		<item>Globe AMAX 148</item>
+		<item>Globe AMAX 149</item>
+		<item>Globe AMAX 150</item>
+		<item>TM AMAX 10</item>
+		<item>TM AMAX 11</item>
+		<item>TM AMAX 12</item>
+		<item>TM AMAX 13</item>
+		<item>TM AMAX 14</item>
+		<item>TM AMAX 15</item>
+		<item>TM AMAX 16</item>
+		<item>TM AMAX 17</item>
+		<item>TM AMAX 18</item>
+		<item>TM AMAX 19</item>
+		<item>TM AMAX 20</item>
+		<item>TM AMAX 21</item>
+		<item>TM AMAX 22</item>
+		<item>TM AMAX 23</item>
+		<item>TM AMAX 24</item>
+		<item>TM AMAX 25</item>
+		<item>TM AMAX 26</item>
+		<item>TM AMAX 27</item>
+		<item>TM AMAX 28</item>
+		<item>TM AMAX 29</item>
+		<item>TM AMAX 30</item>
+		<item>TM AMAX 31</item>
+		<item>TM AMAX 32</item>
+		<item>TM AMAX 33</item>
+		<item>TM AMAX 34</item>
+		<item>TM AMAX 35</item>
+		<item>TM AMAX 36</item>
+		<item>TM AMAX 37</item>
+		<item>TM AMAX 38</item>
+		<item>TM AMAX 39</item>
+		<item>TM AMAX 40</item>
+		<item>TM AMAX 41</item>
+		<item>TM AMAX 42</item>
+		<item>TM AMAX 43</item>
+		<item>TM AMAX 44</item>
+		<item>TM AMAX 45</item>
+		<item>TM AMAX 46</item>
+		<item>TM AMAX 47</item>
+		<item>TM AMAX 48</item>
+		<item>TM AMAX 49</item>
+		<item>TM AMAX 50</item>
+		<item>TM AMAX 51</item>
+		<item>TM AMAX 52</item>
+		<item>TM AMAX 53</item>
+		<item>TM AMAX 54</item>
+		<item>TM AMAX 55</item>
+		<item>TM AMAX 56</item>
+		<item>TM AMAX 57</item>
+		<item>TM AMAX 58</item>
+		<item>TM AMAX 59</item>
+		<item>TM AMAX 60</item>
+		<item>TM AMAX 61</item>
+		<item>TM AMAX 62</item>
+		<item>TM AMAX 63</item>
+		<item>TM AMAX 64</item>
+		<item>TM AMAX 65</item>
+		<item>TM AMAX 66</item>
+		<item>TM AMAX 67</item>
+		<item>TM AMAX 68</item>
+		<item>TM AMAX 69</item>
+		<item>TM AMAX 70</item>
+		<item>TM AMAX 71</item>
+		<item>TM AMAX 72</item>
+		<item>TM AMAX 73</item>
+		<item>TM AMAX 74</item>
+		<item>TM AMAX 75</item>
+		<item>TM AMAX 76</item>
+		<item>TM AMAX 77</item>
+		<item>TM AMAX 78</item>
+		<item>TM AMAX 79</item>
+		<item>TM AMAX 80</item>
+		<item>TM AMAX 81</item>
+		<item>TM AMAX 82</item>
+		<item>TM AMAX 83</item>
+		<item>TM AMAX 84</item>
+		<item>TM AMAX 85</item>
+		<item>TM AMAX 86</item>
+		<item>TM AMAX 87</item>
+		<item>TM AMAX 88</item>
+		<item>TM AMAX 89</item>
+		<item>TM AMAX 90</item>
+		<item>TM AMAX 91</item>
+		<item>TM AMAX 92</item>
+		<item>TM AMAX 93</item>
+		<item>TM AMAX 94</item>
+		<item>TM AMAX 95</item>
+		<item>TM AMAX 96</item>
+		<item>TM AMAX 97</item>
+		<item>TM AMAX 98</item>
+		<item>TM AMAX 99</item>
+		<item>TM AMAX 100</item>
+		<item>TM AMAX 101</item>
+		<item>TM AMAX 102</item>
+		<item>TM AMAX 103</item>
+		<item>TM AMAX 104</item>
+		<item>TM AMAX 105</item>
+		<item>TM AMAX 106</item>
+		<item>TM AMAX 107</item>
+		<item>TM AMAX 108</item>
+		<item>TM AMAX 109</item>
+		<item>TM AMAX 110</item>
+		<item>TM AMAX 111</item>
+		<item>TM AMAX 112</item>
+		<item>TM AMAX 113</item>
+		<item>TM AMAX 114</item>
+		<item>TM AMAX 115</item>
+		<item>TM AMAX 116</item>
+		<item>TM AMAX 117</item>
+		<item>TM AMAX 118</item>
+		<item>TM AMAX 119</item>
+		<item>TM AMAX 120</item>
+		<item>TM AMAX 121</item>
+		<item>TM AMAX 122</item>
+		<item>TM AMAX 123</item>
+		<item>TM AMAX 124</item>
+		<item>TM AMAX 125</item>
+		<item>TM AMAX 126</item>
+		<item>TM AMAX 127</item>
+		<item>TM AMAX 128</item>
+		<item>TM AMAX 129</item>
+		<item>TM AMAX 130</item>
+		<item>TM AMAX 131</item>
+		<item>TM AMAX 132</item>
+		<item>TM AMAX 133</item>
+		<item>TM AMAX 134</item>
+		<item>TM AMAX 135</item>
+		<item>TM AMAX 136</item>
+		<item>TM AMAX 137</item>
+		<item>TM AMAX 138</item>
+		<item>TM AMAX 139</item>
+		<item>TM AMAX 140</item>
+		<item>TM AMAX 141</item>
+		<item>TM AMAX 142</item>
+		<item>TM AMAX 143</item>
+		<item>TM AMAX 144</item>
+		<item>TM AMAX 145</item>
+		<item>TM AMAX 146</item>
+		<item>TM AMAX 147</item>
+		<item>TM AMAX 148</item>
+		<item>TM AMAX 149</item>
+		<item>TM AMAX 150</item>
+    </string-array>
+    <string-array name="productsCode">
+        <item>SM15</item>
+		<item>SM30</item>
+		<item>SM50</item>
+		<item>SM60</item>
+		<item>SM100</item>
+		<item>SM115</item>
+		<item>SM200</item>
+		<item>SM300</item>
+		<item>SM500</item>
+		<item>SM1000</item>
+		<item>AT10</item>
+		<item>AT20</item>
+		<item>GT10</item>
+		<item>GT20</item>
+		<item>LT20</item>
+		<item>LT30</item>
+		<item>BRO15</item>
+		<item>BRO30</item>
+		<item>BRO50</item>
+		<item>BRO60</item>
+		<item>BRO100</item>
+		<item>BRO115</item>
+		<item>BRO200</item>
+		<item>BRO300</item>
+		<item>BRO500</item>
+		<item>RED10</item>
+		<item>RED20</item>
+		<item>RED30</item>
+		<item>RED50</item>
+		<item>RED100</item>
+		<item>RED200</item>
+		<item>RED300</item>
+		<item>RED500</item>
+		<item>REDU25</item>
+		<item>REDU125</item>
+		<item>REDU500</item>
+		<item>SNX10</item>
+		<item>SNX15</item>
+		<item>SNX20</item>
+		<item>SNX25</item>
+		<item>SNX30</item>
+		<item>SNX50</item>
+		<item>SNX75</item>
+		<item>SNX100</item>
+		<item>SNX150</item>
+		<item>SNX300</item>
+		<item>SNX500</item>
+		<item>BGT5</item>
+		<item>BGT20</item>
+		<item>CTC10</item>
+		<item>CTC20</item>
+		<item>CTC30</item>
+		<item>CTC50</item>
+		<item>CTC150</item>
+		<item>WIN10</item>
+		<item>TU20</item>
+		<item>TU50</item>
+		<item>TU60</item>
+		<item>TU150</item>
+		<item>TU200</item>
+		<item>CTU25</item>
+		<item>CTU100</item>
+		<item>CTU150</item>
+		<item>CTU450</item>
+		<item>FLX30</item>
+		<item>FLX50</item>
+		<item>DCTU100</item>
+		<item>TRIO20</item>
+		<item>TRIOP20</item>
+		<item>TRIOP30</item>
+		<item>TRIOP100</item>
+		<item>SULIT30</item>
+		<item>TXTALL15</item>
+		<item>TAPLUS25</item>
+		<item>TAPLUS100</item>
+		<item>UMIX25</item>
+		<item>UMIX100</item>
+		<item>UTXTALL20</item>
+		<item>I25</item>
+		<item>I50</item>
+		<item>I999</item>
+		<item>SBW50</item>
+		<item>SBW100</item>
+		<item>SBW250</item>
+		<item>SBW300</item>
+		<item>IDD50</item>
+		<item>IDD100</item>
+		<item>IDD300</item>
+		<item>G10</item>
+		<item>G20</item>
+		<item>G25</item>
+		<item>G50</item>
+		<item>G60</item>
+		<item>G100</item>
+		<item>G150</item>
+		<item>TM10</item>
+		<item>TM20</item>
+		<item>TM25</item>
+		<item>TM50</item>
+		<item>TM60</item>
+		<item>TM100</item>
+		<item>TM150</item>
+		<item>GMX10</item>
+		<item>GMX11</item>
+		<item>GMX12</item>
+		<item>GMX13</item>
+		<item>GMX14</item>
+		<item>GMX15</item>
+		<item>GMX16</item>
+		<item>GMX17</item>
+		<item>GMX18</item>
+		<item>GMX19</item>
+		<item>GMX20</item>
+		<item>GMX21</item>
+		<item>GMX22</item>
+		<item>GMX23</item>
+		<item>GMX24</item>
+		<item>GMX25</item>
+		<item>GMX26</item>
+		<item>GMX27</item>
+		<item>GMX28</item>
+		<item>GMX29</item>
+		<item>GMX30</item>
+		<item>GMX31</item>
+		<item>GMX32</item>
+		<item>GMX33</item>
+		<item>GMX34</item>
+		<item>GMX35</item>
+		<item>GMX36</item>
+		<item>GMX37</item>
+		<item>GMX38</item>
+		<item>GMX39</item>
+		<item>GMX40</item>
+		<item>GMX41</item>
+		<item>GMX42</item>
+		<item>GMX43</item>
+		<item>GMX44</item>
+		<item>GMX45</item>
+		<item>GMX46</item>
+		<item>GMX47</item>
+		<item>GMX48</item>
+		<item>GMX49</item>
+		<item>GMX50</item>
+		<item>GMX51</item>
+		<item>GMX52</item>
+		<item>GMX53</item>
+		<item>GMX54</item>
+		<item>GMX55</item>
+		<item>GMX56</item>
+		<item>GMX57</item>
+		<item>GMX58</item>
+		<item>GMX59</item>
+		<item>GMX60</item>
+		<item>GMX61</item>
+		<item>GMX62</item>
+		<item>GMX63</item>
+		<item>GMX64</item>
+		<item>GMX65</item>
+		<item>GMX66</item>
+		<item>GMX67</item>
+		<item>GMX68</item>
+		<item>GMX69</item>
+		<item>GMX70</item>
+		<item>GMX71</item>
+		<item>GMX72</item>
+		<item>GMX73</item>
+		<item>GMX74</item>
+		<item>GMX75</item>
+		<item>GMX76</item>
+		<item>GMX77</item>
+		<item>GMX78</item>
+		<item>GMX79</item>
+		<item>GMX80</item>
+		<item>GMX81</item>
+		<item>GMX82</item>
+		<item>GMX83</item>
+		<item>GMX84</item>
+		<item>GMX85</item>
+		<item>GMX86</item>
+		<item>GMX87</item>
+		<item>GMX88</item>
+		<item>GMX89</item>
+		<item>GMX90</item>
+		<item>GMX91</item>
+		<item>GMX92</item>
+		<item>GMX93</item>
+		<item>GMX94</item>
+		<item>GMX95</item>
+		<item>GMX96</item>
+		<item>GMX97</item>
+		<item>GMX98</item>
+		<item>GMX99</item>
+		<item>GMX100</item>
+		<item>GMX101</item>
+		<item>GMX102</item>
+		<item>GMX103</item>
+		<item>GMX104</item>
+		<item>GMX105</item>
+		<item>GMX106</item>
+		<item>GMX107</item>
+		<item>GMX108</item>
+		<item>GMX109</item>
+		<item>GMX110</item>
+		<item>GMX111</item>
+		<item>GMX112</item>
+		<item>GMX113</item>
+		<item>GMX114</item>
+		<item>GMX115</item>
+		<item>GMX116</item>
+		<item>GMX117</item>
+		<item>GMX118</item>
+		<item>GMX119</item>
+		<item>GMX120</item>
+		<item>GMX121</item>
+		<item>GMX122</item>
+		<item>GMX123</item>
+		<item>GMX124</item>
+		<item>GMX125</item>
+		<item>GMX126</item>
+		<item>GMX127</item>
+		<item>GMX128</item>
+		<item>GMX129</item>
+		<item>GMX130</item>
+		<item>GMX131</item>
+		<item>GMX132</item>
+		<item>GMX133</item>
+		<item>GMX134</item>
+		<item>GMX135</item>
+		<item>GMX136</item>
+		<item>GMX137</item>
+		<item>GMX138</item>
+		<item>GMX139</item>
+		<item>GMX140</item>
+		<item>GMX141</item>
+		<item>GMX142</item>
+		<item>GMX143</item>
+		<item>GMX144</item>
+		<item>GMX145</item>
+		<item>GMX146</item>
+		<item>GMX147</item>
+		<item>GMX148</item>
+		<item>GMX149</item>
+		<item>GMX150</item>
+		<item>TMX10</item>
+		<item>TMX11</item>
+		<item>TMX12</item>
+		<item>TMX13</item>
+		<item>TMX14</item>
+		<item>TMX15</item>
+		<item>TMX16</item>
+		<item>TMX17</item>
+		<item>TMX18</item>
+		<item>TMX19</item>
+		<item>TMX20</item>
+		<item>TMX21</item>
+		<item>TMX22</item>
+		<item>TMX23</item>
+		<item>TMX24</item>
+		<item>TMX25</item>
+		<item>TMX26</item>
+		<item>TMX27</item>
+		<item>TMX28</item>
+		<item>TMX29</item>
+		<item>TMX30</item>
+		<item>TMX31</item>
+		<item>TMX32</item>
+		<item>TMX33</item>
+		<item>TMX34</item>
+		<item>TMX35</item>
+		<item>TMX36</item>
+		<item>TMX37</item>
+		<item>TMX38</item>
+		<item>TMX39</item>
+		<item>TMX40</item>
+		<item>TMX41</item>
+		<item>TMX42</item>
+		<item>TMX43</item>
+		<item>TMX44</item>
+		<item>TMX45</item>
+		<item>TMX46</item>
+		<item>TMX47</item>
+		<item>TMX48</item>
+		<item>TMX49</item>
+		<item>TMX50</item>
+		<item>TMX51</item>
+		<item>TMX52</item>
+		<item>TMX53</item>
+		<item>TMX54</item>
+		<item>TMX55</item>
+		<item>TMX56</item>
+		<item>TMX57</item>
+		<item>TMX58</item>
+		<item>TMX59</item>
+		<item>TMX60</item>
+		<item>TMX61</item>
+		<item>TMX62</item>
+		<item>TMX63</item>
+		<item>TMX64</item>
+		<item>TMX65</item>
+		<item>TMX66</item>
+		<item>TMX67</item>
+		<item>TMX68</item>
+		<item>TMX69</item>
+		<item>TMX70</item>
+		<item>TMX71</item>
+		<item>TMX72</item>
+		<item>TMX73</item>
+		<item>TMX74</item>
+		<item>TMX75</item>
+		<item>TMX76</item>
+		<item>TMX77</item>
+		<item>TMX78</item>
+		<item>TMX79</item>
+		<item>TMX80</item>
+		<item>TMX81</item>
+		<item>TMX82</item>
+		<item>TMX83</item>
+		<item>TMX84</item>
+		<item>TMX85</item>
+		<item>TMX86</item>
+		<item>TMX87</item>
+		<item>TMX88</item>
+		<item>TMX89</item>
+		<item>TMX90</item>
+		<item>TMX91</item>
+		<item>TMX92</item>
+		<item>TMX93</item>
+		<item>TMX94</item>
+		<item>TMX95</item>
+		<item>TMX96</item>
+		<item>TMX97</item>
+		<item>TMX98</item>
+		<item>TMX99</item>
+		<item>TMX100</item>
+		<item>TMX101</item>
+		<item>TMX102</item>
+		<item>TMX103</item>
+		<item>TMX104</item>
+		<item>TMX105</item>
+		<item>TMX106</item>
+		<item>TMX107</item>
+		<item>TMX108</item>
+		<item>TMX109</item>
+		<item>TMX110</item>
+		<item>TMX111</item>
+		<item>TMX112</item>
+		<item>TMX113</item>
+		<item>TMX114</item>
+		<item>TMX115</item>
+		<item>TMX116</item>
+		<item>TMX117</item>
+		<item>TMX118</item>
+		<item>TMX119</item>
+		<item>TMX120</item>
+		<item>TMX121</item>
+		<item>TMX122</item>
+		<item>TMX123</item>
+		<item>TMX124</item>
+		<item>TMX125</item>
+		<item>TMX126</item>
+		<item>TMX127</item>
+		<item>TMX128</item>
+		<item>TMX129</item>
+		<item>TMX130</item>
+		<item>TMX131</item>
+		<item>TMX132</item>
+		<item>TMX133</item>
+		<item>TMX134</item>
+		<item>TMX135</item>
+		<item>TMX136</item>
+		<item>TMX137</item>
+		<item>TMX138</item>
+		<item>TMX139</item>
+		<item>TMX140</item>
+		<item>TMX141</item>
+		<item>TMX142</item>
+		<item>TMX143</item>
+		<item>TMX144</item>
+		<item>TMX145</item>
+		<item>TMX146</item>
+		<item>TMX147</item>
+		<item>TMX148</item>
+		<item>TMX149</item>
+		<item>TMX150</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">FragmentsTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="products_prompt">Choose Product</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="PopupTheme" parent="android:Theme.Holo.Light.Dialog">
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+	    <item name="android:windowActionModeOverlay">true</item>
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowActionBar">true</item>
+	</style>
+</resources>

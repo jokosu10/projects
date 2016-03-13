@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" 
+        android:background="#005ab0">
+        
+        <RelativeLayout android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:layout_marginLeft="20dp" >
+
+              <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_centerVertical="true"
+                  android:background="@drawable/topbar" />
+            
+        </RelativeLayout>
+        
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:text="Globe Fitness"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:gravity="center" />
+        
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:layout_marginRight="15dp" />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.35"
+        android:background="@drawable/details" >
+        
+    </LinearLayout>    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.55"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.03"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/border_bottom" >
+            
+            <TextView 
+                android:layout_width="0px" 
+                android:layout_height="match_parent" 
+                android:layout_weight="0.5"/>
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Input your details"
+                android:checked="true"
+                android:layout_gravity="center_vertical" />
+            
+        </LinearLayout>
+ 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.2" >
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15" >
+                
+            </LinearLayout>
+            
+			<LinearLayout 
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.7"
+	            android:orientation="vertical" >
+	            
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="0px"
+		            android:layout_weight="0.35"
+		            android:orientation="horizontal" >
+		            
+		            <EditText 
+		                android:id="@+id/ageEditText"
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:hint="Age"
+		                android:textSize="15sp"
+		                android:inputType="number"
+		                android:layout_marginTop="10dp"
+		                android:layout_marginRight="5dp"
+		                android:padding="2dp"
+		                android:gravity="center"
+		                android:background="@drawable/border_box" />
+		        
+		            <EditText 
+		                android:id="@+id/weightEditText"
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:hint="Weight (kg)" 
+		                android:textSize="15sp"
+		                android:inputType="number"
+		                android:layout_marginTop="10dp"
+		                android:layout_marginLeft="5dp"
+		                android:padding="2dp"
+		                android:gravity="center"
+		                android:background="@drawable/border_box" />            
+		            
+		        </LinearLayout>  
+		        
+		        <RadioGroup
+		            android:id="@+id/genderRadioGroup"
+		            android:layout_width="match_parent"
+		            android:layout_height="0px"
+		            android:layout_weight="0.35"
+		            android:layout_margin="5dp">
+		
+		            <RadioButton
+		                android:id="@+id/maleRadioBtn"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:checked="true"
+		                android:text="Male" />
+		
+		            <RadioButton
+		                android:id="@+id/femaleRadioBtn"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="Female" />
+	
+	        	</RadioGroup>
+	        	
+		        <LinearLayout 
+		            android:layout_width="match_parent"
+		            android:layout_height="0px"
+		            android:layout_weight="0.3"
+		            android:orientation="horizontal" >
+		            
+		            <TextView android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.15" />
+		            
+		            <Button android:id="@+id/bodyInfoSubmitBtn"
+				            android:layout_width="0px"
+				            android:layout_height="match_parent"
+				            android:layout_weight="0.6"
+				            android:textSize="20sp"
+				            android:layout_margin="15dp"
+				            android:background="@drawable/submit_details" />
+		            		            
+		            <TextView android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.15" />
+		            
+		        </LinearLayout>
+		        
+
+		       
+	        </LinearLayout>            
+            
+            
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15" >
+                
+            </LinearLayout>            
+            
+        </LinearLayout>         
+        
+        
+        
+    </LinearLayout>     
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" >
+        
+    </LinearLayout>    
+    
+</LinearLayout>

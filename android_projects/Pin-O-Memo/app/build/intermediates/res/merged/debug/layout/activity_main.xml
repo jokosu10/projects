@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/tv_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+ 
+        <ImageButton
+            android:id="@+id/btn_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_action_view_as_list"
+            android:background="@null" />
+        
+        <View
+        	android:id="@+id/divider_1"
+        	android:layout_width="1dp"
+        	android:layout_height="30dp"
+        	android:layout_marginLeft="5dp"
+        	android:layout_marginRight="5dp"
+        	android:layout_alignTop="@id/btn_profile"
+        	android:layout_alignBottom="@id/btn_profile"
+        	android:layout_toLeftOf="@id/btn_profile"
+        	android:background="@android:color/darker_gray" />
+        
+        <ImageButton
+            android:id="@+id/btn_find"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_profile"
+            android:layout_alignTop="@id/btn_profile"
+            android:layout_toLeftOf="@id/divider_1"
+            android:background="@null"
+            android:src="@drawable/ic_action_search"
+            android:text="@string/str_btn_find" />
+ 
+        <com.example.pin_o_memo.CustomAutoCompleteTextView
+            android:id="@+id/et_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/btn_find"
+            android:layout_alignTop="@id/btn_find"
+            android:layout_toLeftOf="@id/btn_find"
+            android:hint="@string/hnt_et_location"
+            android:inputType="text" />
+ 
+        
+    </RelativeLayout>
+    
+	<fragment
+  		android:id="@+id/map"
+  		class="com.google.android.gms.maps.MapFragment"
+  		android:layout_width="match_parent"
+ 		android:layout_height="match_parent"/>
+	
+</LinearLayout>

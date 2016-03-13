@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/select_rep"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewReport"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp" >
+
+                <Button
+                    android:id="@+id/report_button1"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_1" />
+
+                <Button
+                    android:id="@+id/report_button2"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_2" />
+
+                <Button
+                    android:id="@+id/report_button3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp" >
+
+                <Button
+                    android:id="@+id/report_button4"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_4" />
+
+                <Button
+                    android:id="@+id/report_button5"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_5" />
+
+                <Button
+                    android:id="@+id/report_button6"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rep_6" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

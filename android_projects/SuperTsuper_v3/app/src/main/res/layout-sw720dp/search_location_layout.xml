@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">     
+    
+    <TextView
+        android:id="@+id/searchLocationLayoutDummyTextView"
+        android:layout_width="0px"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"
+        android:text="                                                     "
+        android:textAppearance="?android:attr/textAppearanceLarge" />    
+ 
+    <TextView
+        android:id="@+id/searchLocationLayoutDummyTextView2"
+        android:layout_width="0px"
+        android:layout_height="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.5"
+        android:text="                                                     "
+        android:textAppearance="?android:attr/textAppearanceLarge" />     
+    
+    
+    <EditText
+        android:id="@+id/searchLocationText"
+        android:layout_width="0px"
+        android:layout_weight="0.5"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_search_expand"
+        android:gravity="center_horizontal|center_vertical"
+        android:longClickable="false"
+        android:maxLength="50"
+        android:textColor="#ededed"
+        android:singleLine="true"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+    
+</LinearLayout>

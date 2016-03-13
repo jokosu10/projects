@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="loopback-android-1.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/loopback-android-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

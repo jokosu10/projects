@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pin-O-Memo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="use_fine_provider">Fine Provider</string>
+    <string name="use_both_providers">Both providers</string>
+    <string name="reset_button">Reset</string>
+    <string name="calc_button">Calculation</string>
+    <string name="str_btn_find">Find</string>
+    <string name="hnt_et_location">Enter location</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="str_btn_back">Back</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_profile_page">ProfilePage</string>
+    <string name="title_activity_edit_name_dialog">EditNameDialog</string>
+
+</resources>

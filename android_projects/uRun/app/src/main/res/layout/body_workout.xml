@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.1" 
+        android:background="#005ab0">
+        
+        <RelativeLayout android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:layout_marginLeft="20dp" >
+
+              <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_centerHorizontal="true"
+                  android:layout_centerVertical="true"
+                  android:background="@drawable/topbar" />
+            
+        </RelativeLayout>
+        
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:text="Globe Fitness"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:gravity="center" />
+        
+        <TextView 
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15"
+            android:layout_marginRight="15dp" />
+        
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.35"
+        android:background="@drawable/workout" >
+        
+    </LinearLayout>    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.55"
+        android:orientation="vertical" >
+        
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.03"
+            android:orientation="horizontal"> 
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.025" >
+            </LinearLayout>
+
+			<LinearLayout
+			            android:layout_width="0px"
+			            android:layout_height="match_parent"
+			            android:layout_weight="0.8"
+			            android:background="@drawable/border_bottom" >
+			            
+			            <TextView 
+			                android:layout_width="0px" 
+			                android:layout_height="match_parent" 
+			                android:layout_weight="0.5"/>
+			
+			            <RelativeLayout android:layout_width="0px"
+			                android:layout_height="match_parent"
+			                android:layout_weight="0.1" >
+			
+			                <TextView
+			                    android:layout_width="20dp"
+			                    android:layout_height="20dp"
+			                    android:layout_centerHorizontal="true"
+			                    android:layout_centerVertical="true"
+			                    android:background="@drawable/date" />
+			                
+			            </RelativeLayout>
+			           
+			            <TextView
+			                android:id="@+id/bodyWorkOutDateTextView" 
+			                android:layout_width="0px"
+			                android:layout_height="match_parent"
+			                android:textSize="12sp"
+			                android:text="October 2, 2014"
+			                android:gravity="left|center_vertical"
+			                android:layout_weight="0.4" />
+			                        
+			      </LinearLayout>            
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.025" >
+            </LinearLayout>            
+            
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="0.2" >
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.025" >
+                
+            </LinearLayout>
+            
+			<LinearLayout 
+	            android:layout_width="0px"
+	            android:layout_height="match_parent"
+	            android:layout_weight="0.7"
+	            android:orientation="vertical" >
+	            
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="0px"
+		            android:layout_weight="0.35"
+		            android:orientation="horizontal"
+		            android:background="@drawable/border_bottom" >  
+		            
+		            <LinearLayout 
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.35"
+		                android:orientation="vertical">"
+		                
+		                <TextView 
+		                    android:id="@+id/stepsValueTextView"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5"
+		                    android:gravity="bottom|center_horizontal"
+		                    android:textSize="25sp"
+		                    android:text="0" />
+		                
+		                <TextView android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5"
+		                    android:gravity="center"
+		                    android:textSize="25sp"
+		                    android:text="Steps" />
+		                
+		            </LinearLayout>
+		            
+					<LinearLayout 
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.65"
+		                android:orientation="vertical">
+		                
+		                <TextView 
+		                    android:id="@+id/durationValueTextView"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5"
+		                    android:gravity="bottom|center_horizontal"
+		                    android:textSize="25sp"
+		                    android:text="00:00:000" />
+		                
+		                <TextView android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5"
+		                    android:gravity="center"
+		                    android:textSize="25sp"
+		                    android:text="Duration" />
+		                
+		            </LinearLayout>		            
+		            
+		            
+		        </LinearLayout>
+	
+		        <LinearLayout 
+		            android:layout_width="match_parent"
+		            android:layout_height="0px"
+		            android:layout_weight="0.5" >
+		            
+		            <LinearLayout 
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.35"
+		                android:orientation="vertical"  >
+		                
+		                <LinearLayout android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.3" >
+		                    
+		                    <TextView 
+			                    android:id="@+id/distanceValueTextView"
+			                    android:layout_width="0px"
+			                    android:layout_height="match_parent"
+			                    android:layout_weight="0.7"
+			                    android:gravity="bottom|right"
+		                    	android:textSize="25sp"
+			                    android:text="0" />
+
+		                    <TextView
+		                        android:layout_marginLeft="10dp"
+			                    android:layout_width="0px"
+			                    android:layout_height="match_parent"
+			                    android:layout_weight="0.3"
+			                    android:gravity="bottom|left"
+			                    android:layout_marginBottom="5dp"
+			                    android:text="KM" />		                    
+		                    		                    
+		                </LinearLayout>
+		                
+		                <TextView
+		                    android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.2"
+		                    android:gravity="center_horizontal"
+		                    android:textSize="15sp"
+		                    android:text="Distance" />		               
+		                
+		                <LinearLayout android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.3" >
+		                    
+			                <TextView 
+			                    android:id="@+id/speedValueTextView"
+			                    android:layout_width="0px"
+			                    android:layout_height="match_parent"
+			                    android:layout_weight="0.7"
+			                    android:gravity="bottom|right"
+		                    	android:textSize="25sp"
+			                    android:text="0" />	
+
+		                    <TextView
+			                    android:layout_width="0px"
+			                    android:layout_height="match_parent"
+			                    android:layout_weight="0.3"
+			                    android:gravity="bottom|left"
+			                    android:layout_marginLeft="10dp"
+			                    android:layout_marginBottom="5dp"
+			                    android:text="mph" />			                
+			                		                    	                    
+		                </LinearLayout>
+		                
+		                <TextView
+		                    android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.2"
+		                    android:gravity="center_horizontal"
+		                    android:textSize="15sp"
+		                    android:text="Speed" />		                
+		                
+		                		                		                
+		            </LinearLayout>
+		            
+		            <TextView android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.15" />
+		            
+		            <LinearLayout 
+		                android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.5"
+		                android:orientation="vertical"
+		                android:layout_margin="15px"
+		                android:background="@drawable/circle" >
+		                
+		                <LinearLayout android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5">
+		                    
+		                    <TextView 
+		                        android:id="@+id/caloriesValueTextView"
+		                        android:layout_width="0px"
+		                        android:layout_height="match_parent"
+		                        android:layout_weight="0.7"
+		                        android:textSize="35sp"
+		                        android:gravity="right|bottom"
+		                        android:text="0"
+		                        android:textColor="@android:color/white" />
+		                    
+		                   <TextView 
+		                        android:layout_width="0px"
+		                        android:layout_height="match_parent"
+		                        android:layout_weight="0.3"
+		                        android:gravity="left|bottom"
+		                        android:layout_marginLeft="10dp"
+		                        android:layout_marginBottom="5dp"
+		                        android:text="kCal"
+		                        android:textColor="@android:color/white" />
+		                    
+		                    
+		                </LinearLayout>
+		                
+		                <TextView android:layout_width="match_parent"
+		                    android:layout_height="0px"
+		                    android:layout_weight="0.5"
+							android:gravity="center_horizontal"
+							android:textSize="25sp"
+		                    android:text="Calories"
+		                    android:textColor="@android:color/white" />
+		                
+		            </LinearLayout>		            
+		           
+					<TextView android:layout_width="0px"
+		                android:layout_height="match_parent"
+		                android:layout_weight="0.05" />		            
+		            
+		        </LinearLayout>
+		       	       
+	        </LinearLayout>            
+            
+            <LinearLayout android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.025" >
+                
+            </LinearLayout>            
+            
+        </LinearLayout>         
+         
+    </LinearLayout>     
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.05" >
+        
+    </LinearLayout>    
+    
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="270dp"
+    android:background="@drawable/box_gray"
+    android:orientation="vertical" >
+
+     <TextView
+	     android:id="@+id/textViewDetails"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="10px"
+	     android:text="DETAILS"
+	     android:textStyle="italic"
+	     android:gravity="center_horizontal"
+	     android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5px"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/plotCurrentLocationTitleTextView"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Title: "
+	            android:textStyle="italic"
+	            android:layout_marginLeft="5px"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	        <EditText
+	            android:id="@+id/plotCurrentLocationTitleEditText"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5px"
+	            android:layout_marginRight="5px"
+	            android:layout_marginTop="20dp"
+	            android:ems="10" >
+	
+	            <requestFocus />
+	        </EditText>
+	        
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="150dp"
+	        android:layout_marginTop="5px"
+	        android:orientation="vertical" >
+	        
+	        <TextView
+	            android:id="@+id/plotCurrentLocationDescriptionTextView"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="Description: "
+	            android:textStyle="italic"
+	            android:layout_marginLeft="5px"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />	        
+	        
+	        <EditText
+	            android:id="@+id/plotCurrentLocationDescriptionEditText"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5px"
+	            android:layout_marginRight="5px"
+	            android:layout_marginTop="20dp"
+	            android:ems="10" >
+	
+	        </EditText>	        
+	        
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="60dp"
+		        android:layout_marginTop="5px"
+		        android:orientation="horizontal" >
+	
+		        <Button
+		            android:id="@+id/plotCurrentLocationSaveBtn"
+		            android:layout_width="0px"
+		            android:layout_height="50dp"
+		            android:layout_weight="0.5"
+		            android:layout_marginRight="5px"
+		            android:background="@drawable/box_blue"
+		            android:textStyle="italic"
+		            android:textColor="#FFFFFF"
+		            android:text="  SAVE  " />
+		
+		        <Button
+		            android:id="@+id/plotCurrentLocationCancelBtn"
+		            android:layout_width="0px"
+		            android:layout_height="50dp"
+		            android:layout_weight="0.5"
+		            android:layout_marginLeft="5px"
+		            android:background="@drawable/box_blue"
+		            android:textStyle="italic"
+		            android:textColor="#FFFFFF"
+		            android:text=" CANCEL " />
+		        
+		    </LinearLayout>	        
+	    </LinearLayout>
+	
+
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5px"
+	        android:orientation="horizontal" >
+	     </LinearLayout>   	    
+
+</LinearLayout>

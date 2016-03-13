@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\taxi_hirers_layout.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\src\\main\\res\\layout\\taxi_hirers_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_layout.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\src\\main\\res\\layout\\splash_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hire_request_row.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\src\\main\\res\\layout\\hire_request_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_taxi_main.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\src\\main\\res\\layout\\activity_taxi_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\taxi_registration_layout.xml",
+        "source": "C:\\Users\\ARIS CRUZ\\StudioProjects\\IloiloTaxiDriverApp1\\app\\src\\main\\res\\layout\\taxi_registration_layout.xml"
+    }
+]

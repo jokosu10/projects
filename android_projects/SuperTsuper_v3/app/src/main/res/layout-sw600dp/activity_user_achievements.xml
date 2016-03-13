@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:orientation="vertical"  
+  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_bg">  
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"  
+		android:layout_height="60dp"  
+		android:layout_gravity="top"  
+		android:background="#66CD00"  
+		android:paddingBottom="4dp"  
+		android:paddingTop="4dp" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Achievements"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ededed"
+        android:textSize="40dp"
+         />
+    
+    <ListView    
+      android:id="@+id/AchievementsView"
+      android:layout_width="match_parent"
+      android:layout_height="fill_parent"
+      android:layout_below="@+id/imageView1"
+      android:layout_centerHorizontal="true">  
+    </ListView>
+
+    <Button
+        android:id="@+id/AchievementsBack"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:background="@drawable/achievement_header_back_button"
+        android:clickable="true"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
+          
+</RelativeLayout> --> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+	  android:orientation="vertical"  
+	  android:layout_width="match_parent"
+	  android:layout_height="match_parent"
+	  android:background="@drawable/profile_bg">
+  
+    <RelativeLayout
+        android:id="@+id/achievementsRelativeLayoutID"   
+  		android:layout_width="match_parent"
+    	android:layout_height="115dp"
+    	android:background="#66CD00" 
+    	>  
+<!--     
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"  
+		android:layout_height="115dp"  
+		android:layout_gravity="top"  
+		android:background="#66CD00"  
+		android:paddingBottom="4dp"  
+		android:paddingTop="4dp" /> -->
+
+    <Button
+        android:id="@+id/AchievementsBack"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/achievement_header_back_button"
+        android:clickable="true"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Achievements"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ededed"
+        android:textSize="35sp" />
+    
+    </RelativeLayout>
+    
+    <ListView    
+	      android:id="@+id/AchievementsView"
+	      android:layout_width="match_parent"
+	      android:layout_height="fill_parent"
+	      android:layout_below="@+id/imageView1"
+	      android:layout_centerHorizontal="true">  
+    </ListView>  
+    
+</LinearLayout>
