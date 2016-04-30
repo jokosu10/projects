@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,40 +12,14 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 225,
+                        "startOffset": 227,
                         "endLine": 9,
                         "endColumn": 12,
-                        "endOffset": 373
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 201
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values-v14\\styles.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 225,
-                        "endLine": 9,
-                        "endColumn": 12,
-                        "endOffset": 373
+                        "endOffset": 375
                     }
                 }
             }

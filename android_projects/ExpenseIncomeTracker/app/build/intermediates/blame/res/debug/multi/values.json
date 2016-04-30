@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -49,13 +49,13 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 177,
+                        "startOffset": 178,
                         "endColumn": 52,
-                        "endOffset": 225
+                        "endOffset": 226
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 281
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 58,
+                        "startOffset": 59,
                         "endColumn": 63,
-                        "endOffset": 117
+                        "endOffset": 118
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 334
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 123,
+                        "startOffset": 124,
                         "endColumn": 52,
-                        "endOffset": 171
+                        "endOffset": 172
                     }
                 }
             },
@@ -107,14 +107,14 @@
                     "endOffset": 625
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 191,
+                        "startOffset": 192,
                         "endLine": 12,
                         "endColumn": 12,
-                        "endOffset": 481
+                        "endOffset": 484
                     }
                 }
             },
@@ -128,156 +128,14 @@
                     "endOffset": 785
                 },
                 "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\git\\projects\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "D:\\programming\\git\\projects\\android_projects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 525,
                         "endLine": 17,
                         "endColumn": 12,
-                        "endOffset": 679
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 92,
-                        "endColumn": 57,
-                        "endOffset": 145
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 55,
-                    "endOffset": 164
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 151,
-                        "endColumn": 55,
-                        "endOffset": 202
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 52,
-                    "endOffset": 217
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 177,
-                        "endColumn": 52,
-                        "endOffset": 225
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 222,
-                    "endColumn": 63,
-                    "endOffset": 281
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 58,
-                        "endColumn": 63,
-                        "endOffset": 117
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 286,
-                    "endColumn": 52,
-                    "endOffset": 334
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 123,
-                        "endColumn": 52,
-                        "endOffset": 171
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 339,
-                    "endLine": 13,
-                    "endColumn": 12,
-                    "endOffset": 625
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 191,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 630,
-                    "endLine": 16,
-                    "endColumn": 12,
-                    "endOffset": 785
-                },
-                "from": {
-                    "file": "C:\\Users\\ARIS CRUZ\\StudioProjects\\ExpenseIncomeTracker\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 522,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 679
+                        "endOffset": 682
                     }
                 }
             }

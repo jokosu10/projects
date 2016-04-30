@@ -1,3 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\programming\git\projects\android_projects\ExpenseIncomeTracker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="21790e6bb699adbbef168f356b60ffb9a412e5c7">
+        <dex dex="D:\programming\git\projects\android_projects\ExpenseIncomeTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_59179103a134c6dba5fe30650c6066f39e469c52\classes.dex" />
+    </item>
+    <item
+        jar="D:\lahat-files\Desktop\Aries\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\programming\git\projects\android_projects\ExpenseIncomeTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_4dd67975fc75d0a067493c7e603469b8b1dcfbb4\classes.dex" />
+    </item>
+    <item
+        jar="D:\programming\git\projects\android_projects\ExpenseIncomeTracker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c5eabf12ba051e6d0cce65d3fd9545744b1f8b93">
+        <dex dex="D:\programming\git\projects\android_projects\ExpenseIncomeTracker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f297f61b92de5a4cca82fcfbdc936d9218cbd1ea\classes.dex" />
+    </item>
+
+</items>
