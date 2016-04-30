@@ -121,7 +121,8 @@ public class DetermineRoamerLocationTrackerUploadAction extends ActionSupport {
 										String operatorToCompare = imsi.substring(0,3);
 										validateEntriesForImsi(operatorImsiTemp, operatorToCompare, imsi, msisdn, vlr);
 										
-									} else if(!msisdn.equalsIgnoreCase("NULL")) {
+									} 
+									if(!msisdn.equalsIgnoreCase("NULL")) {
 										
 										String operatorToCompare = msisdn.substring(0,5);
 										validateEntriesForMsisdn(operatorMsisdnTemp, operatorToCompare, imsi, msisdn, vlr);
