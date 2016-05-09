@@ -1,0 +1,26 @@
+D:\programming\git\games\BasicGame\mobile\bin\classes.dex : \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\BuildConfig.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\MainActivity.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\R$attr.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\R$drawable.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\R$layout.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\R$string.class \
+D:\programming\git\games\BasicGame\mobile\bin\classes\com\mycompany\mygame\R.class \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-jogg-cbef9ce16ec6512468c5bf04d676bcc1.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-android-94124dc5affb054182070d48131a6e6f.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-plugins-1c250dd53e9d90cc9bb403c180d9ae9d.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\nifty-default-controls-31a54a9aaafd3240f4fc067ce326d1a1.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-niftygui-c2c8df06647108cc07be17487a4d7137.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-core-2714d9c1907288fdde3deabb9f6c3022.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\MyGame-d86440acb0796e533b635f249e75345d.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-testdata-9eeb9cdb3a0a8fdb923011d84327b998.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\j-ogg-vorbisd-74d59709dd095ea4653adf41757c9e50.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\nifty-style-black-2ff0fcb5de33b2d1d1ec8932f9238773.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\j-ogg-oggd-0b7aa46b25c253e62c01fcb8408b6e5b.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\eventbus-de1fd5db93f2a63e2983f1fdad62815d.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-bullet-b7abeecfe63546812c65049435c253d6.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-effects-a8d66fd7b5d151691db8c18432d0f0de.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-terrain-b745a16a8cb58ed4d59eaa0c29b4a175.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\xmlpull-xpp3-761976f18a8791c2b11da3e4dd264269.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\jME3-networking-74b7e02d87efb4c624ba792f1fc4fe2d.jar \
+D:\programming\git\games\BasicGame\mobile\bin\dexedLibs\nifty-a886162a8cbebe3c85f51b934b74e043.jar \
