@@ -164,6 +164,9 @@ public class Hud {
             FileReader fileReader = new FileReader(file);
             BufferedReader reader = new BufferedReader(fileReader);
             String line = reader.readLine();
+            if (line == null) {
+                line = "0";
+            }
             return Integer.valueOf(line);
         } catch (FileNotFoundException e) { e.printStackTrace();
         } catch (IOException e) { e.printStackTrace(); }
