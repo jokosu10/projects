@@ -1,0 +1,23 @@
+D:\programming\git\games\BasicGame\mobile\bin\MyGame-release-unsigned.apk : \
+D:\programming\git\games\BasicGame\mobile\bin\MyGame.ap_ \
+D:\programming\git\games\BasicGame\mobile\bin\classes.dex \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-jogg.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-android.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-plugins.jar \
+D:\programming\git\games\BasicGame\mobile\libs\nifty-default-controls.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-niftygui.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-core.jar \
+D:\programming\git\games\BasicGame\mobile\libs\MyGame.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-testdata.jar \
+D:\programming\git\games\BasicGame\mobile\libs\j-ogg-vorbisd.jar \
+D:\programming\git\games\BasicGame\mobile\libs\nifty-style-black.jar \
+D:\programming\git\games\BasicGame\mobile\libs\j-ogg-oggd.jar \
+D:\programming\git\games\BasicGame\mobile\libs\eventbus.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-bullet.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-effects.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-terrain.jar \
+D:\programming\git\games\BasicGame\mobile\libs\xmlpull-xpp3.jar \
+D:\programming\git\games\BasicGame\mobile\libs\jME3-networking.jar \
+D:\programming\git\games\BasicGame\mobile\libs\nifty.jar \
+D:\programming\git\games\BasicGame\mobile\libs\armeabi\libbulletjme.so \
+D:\programming\git\games\BasicGame\mobile\libs\armeabi-v7a\libbulletjme.so \

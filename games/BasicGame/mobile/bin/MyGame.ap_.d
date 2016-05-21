@@ -1,0 +1,23 @@
+D:\programming\git\games\BasicGame\mobile\bin\MyGame.ap_ \
+ : D:\programming\git\games\BasicGame\mobile\res\drawable-hdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\res\drawable-ldpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\res\drawable-mdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\res\drawable-xhdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\res\layout\main.xml \
+D:\programming\git\games\BasicGame\mobile\res\values\strings.xml \
+D:\programming\git\games\BasicGame\mobile\bin\res\drawable-hdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\bin\res\drawable-ldpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\bin\res\drawable-mdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\bin\res\drawable-xhdpi\ic_launcher.png \
+D:\programming\git\games\BasicGame\mobile\assets\Interface \
+D:\programming\git\games\BasicGame\mobile\assets\MatDefs \
+D:\programming\git\games\BasicGame\mobile\assets\Materials \
+D:\programming\git\games\BasicGame\mobile\assets\META-INF \
+D:\programming\git\games\BasicGame\mobile\assets\Models \
+D:\programming\git\games\BasicGame\mobile\assets\Scenes \
+D:\programming\git\games\BasicGame\mobile\assets\Shaders \
+D:\programming\git\games\BasicGame\mobile\assets\Sounds \
+D:\programming\git\games\BasicGame\mobile\assets\Textures \
+D:\programming\git\games\BasicGame\mobile\assets\Materials\MyCustomMaterial.j3m \
+D:\programming\git\games\BasicGame\mobile\assets\META-INF\MANIFEST.MF \
+D:\programming\git\games\BasicGame\mobile\bin\AndroidManifest.xml \

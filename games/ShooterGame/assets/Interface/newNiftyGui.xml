@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nifty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nifty-gui.lessvoid.com/nifty-gui" xsi:schemaLocation="https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd">
+    <screen id="start" controller="mygame.Main">
+        <layer id="layer" backgroundColor="#003f" childLayout="center">
+            <panel id="panel" visibleToMouse="true" height="25%" backgroundColor="#f60f" width="35%" align="center" childLayout="center" valign="center"/>
+        </layer>
+    </screen>
+</nifty>
